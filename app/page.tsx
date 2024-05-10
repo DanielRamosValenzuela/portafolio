@@ -1,9 +1,15 @@
-import { CoverParticles } from "./ui/home/CoverParticles";
+import TransitionPage from './ui/animation/TransitionPage';
+import { CoverParticles } from './ui/animation/CoverParticles';
+import Home from './ui/home/Home';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className='flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover'>
-      <CoverParticles />
-    </div>
+    <main>
+      <TransitionPage />
+      <div className='flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover'>
+        <CoverParticles />
+        <Home/>
+      </div>
+    </main>
   );
 }

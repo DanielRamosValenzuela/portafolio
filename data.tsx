@@ -4,22 +4,22 @@ import {
   HomeIcon,
   UserRound,
   Linkedin,
-  Twitter,
-  Rss,
-  Twitch,
-  Youtube,
   Crop,
   Pencil,
   Computer,
   Book,
   Rocket,
-  Speech,
+  Phone,
+  Mail,
+  Swords,
+  Nfc,
+  Github,
 } from 'lucide-react';
 
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
+    logo: <Phone size={30} strokeWidth={1} />,
     src: '#!',
   },
   {
@@ -29,17 +29,12 @@ export const socialNetworks = [
   },
   {
     id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
+    logo: <Github size={30} strokeWidth={1} />,
     src: '#!',
   },
   {
     id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
-    src: '#!',
-  },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
+    logo: <Mail size={30} strokeWidth={1} />,
     src: '#!',
   },
 ];
@@ -59,21 +54,27 @@ export const itemsNavbar = [
   },
   {
     id: 3,
-    title: 'Book',
+    title: 'Education',
     icon: <BookText size={25} color='#fff' strokeWidth={1} />,
-    link: '/services',
+    link: '/education',
   },
   {
     id: 4,
-    title: 'Target',
+    title: 'Portfolio',
     icon: <CodeSquare size={25} color='#fff' strokeWidth={1} />,
     link: '/portfolio',
   },
   {
     id: 5,
-    title: 'Home',
-    icon: <Speech size={25} color='#fff' strokeWidth={1} />,
-    link: '/testimonials',
+    title: 'Tools',
+    icon: <Swords size={25} color='#fff' strokeWidth={1} />,
+    link: '/tools',
+  },
+  {
+    id: 6,
+    title: 'Contact',
+    icon: <Nfc size={25} color='#fff' strokeWidth={1} />,
+    link: '/contact',
   },
 ];
 
@@ -115,29 +116,22 @@ export const dataAboutPage = [
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
-    text: 'Años de experiencia',
+    endCounter: 4,
+    text: 'Años como desarrollador',
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
-    text: 'Clientes satisfechos',
-    lineRight: true,
-    lineRightMobile: false,
-  },
-  {
-    id: 2,
-    endCounter: 220,
-    text: 'Proyectos finalizados',
+    endCounter: 10,
+    text: 'Experiencia laboral',
     lineRight: true,
     lineRightMobile: true,
   },
   {
-    id: 3,
-    endCounter: 30,
-    text: 'Premios ganadores',
+    id: 2,
+    endCounter: 20,
+    text: 'Proyectos finalizados',
     lineRight: false,
     lineRightMobile: false,
   },
