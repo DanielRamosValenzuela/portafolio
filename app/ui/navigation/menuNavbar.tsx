@@ -34,9 +34,9 @@ export const menuNavbar = [
   },
   {
     id: 5,
-    title: 'Tools',
+    title: 'Stack',
     icon: <Swords size={25} color='#fff' strokeWidth={1} />,
-    link: '/tools',
+    link: '/stack',
   },
   {
     id: 6,
