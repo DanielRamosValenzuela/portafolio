@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CircleFlag } from 'react-circle-flags';
 
 import { Motion } from '../animation/Motion';
-import { socialNetworks } from './socialNetworks';
+import { menuHeader } from './menuHeader';
 import { useLanguageStore } from '@/app/store/language';
 
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
             </label>
           </div>
           <div className='flex items-center justify-center gap-7'>
-            {socialNetworks.map(({ logo, src, id }) => (
+            {menuHeader.map(({ logo, src, id }) => (
               <Link
                 key={id}
                 href={src}

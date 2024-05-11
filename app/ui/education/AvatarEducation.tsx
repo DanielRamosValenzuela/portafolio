@@ -13,6 +13,7 @@ const AvatarEducation = () => {
         height='400'
         className='w-[350px] h-full '
         alt='Particles'
+        priority={true}
       />
     </Motion>
   );

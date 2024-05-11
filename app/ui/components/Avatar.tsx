@@ -14,7 +14,8 @@ export function Avatar() {
         src='/avatar-1.png'
         width='400'
         height='400'
-        className='w-full h-full '
+        className='w-full h-full'
+        priority={true}
         alt='Particles '
       />
     </Motion>

@@ -5,7 +5,7 @@ import {
   Github,
 } from 'lucide-react';
 
-export const socialNetworks = [
+export const menuHeader = [
   {
     id: 1,
     logo: <Phone size={30} strokeWidth={1} />,
