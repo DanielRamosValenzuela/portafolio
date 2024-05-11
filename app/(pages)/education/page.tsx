@@ -1,7 +1,7 @@
 import TransitionPage from '@/app/ui/animation/TransitionPage';
-import AvatarEducation from '@/app/ui/components/AvatarEducation';
+import AvatarEducation from '@/app/ui/education/AvatarEducation';
 import CircleImage from '@/app/ui/components/CircleImage';
-import SliderEducation from '@/app/ui/components/SliderEducation';
+import SliderEducation from '@/app/ui/education/SliderEducation';
 
 const ServicesPage = () => {
   return (

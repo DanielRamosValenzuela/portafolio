@@ -3,10 +3,18 @@
 import Link from 'next/link';
 import { CircleFlag } from 'react-circle-flags';
 
-import { socialNetworks } from '@/data';
 import { Motion } from '../animation/Motion';
+import { socialNetworks } from './socialNetworks';
+import { useLanguageStore } from '@/app/store/language';
 
 const Header = () => {
+  const language = useLanguageStore((state) => state.isEnglish);
+  const changeLanguage = useLanguageStore((state) => state.changeLanguage);
+
+  const handleInputClick = () => {
+    changeLanguage(language)
+  }
+
   return (
     <Motion
       position='bottom'
@@ -27,8 +35,8 @@ const Header = () => {
               <div className='mr-3 w-6'>
                 <CircleFlag countryCode='es' />
               </div>
-              <input type='checkbox' value='' className='sr-only peer' />
-              <div className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+              <input type='checkbox' className='sr-only peer' defaultChecked={language} />
+              <div onClick={handleInputClick} className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
               <div className='ms-3 w-6'>
                 <CircleFlag countryCode='gb' />
               </div>

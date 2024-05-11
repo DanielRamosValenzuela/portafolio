@@ -3,8 +3,8 @@
 import TransitionPage from '@/app/ui/animation/TransitionPage';
 import { Avatar } from '@/app/ui/components/Avatar';
 import Container from '@/app/ui/components/Container';
-import CounterServices from '@/app/ui/components/CounterServices';
-import TimeLine from '@/app/ui/components/TimeLine';
+import CounterServices from '@/app/ui/about-me/CounterServices';
+import TimeLine from '@/app/ui/about-me/TimeLine';
 
 const AboutMePage = () => {
   return (

@@ -1,5 +1,6 @@
-import { dataCounter } from '@/data';
+
 import CountUp from 'react-countup';
+import { dataCounter } from './data/data';
 
 const CounterServices = () => {
   return (
