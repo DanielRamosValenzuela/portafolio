@@ -1,8 +1,11 @@
-
 import CountUp from 'react-countup';
-import { dataCounter } from './data/data';
+import { IDataCounter } from './data/interface';
 
-const CounterServices = () => {
+interface CounterServicesProps {
+  dataCounter: IDataCounter[];
+}
+
+const CounterServices: React.FC<CounterServicesProps> = ({ dataCounter }) => {
   return (
     <div className='grid justify-between max-w-3xl grid-cols-2 gap-3 mx-auto my-8 md:flex md:grid-cols-4 md:gap-6'>
       {dataCounter.map(

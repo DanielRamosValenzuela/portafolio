@@ -1,6 +1,10 @@
-import { dataAboutPageTimeLine } from "./data/data";
+import { IDataAboutPageTimeLine } from './data/interface';
 
-const TimeLine = () => {
+interface TimeLineProps {
+  dataAboutPageTimeLine: IDataAboutPageTimeLine[];
+}
+
+const TimeLine: React.FC<TimeLineProps> = ({ dataAboutPageTimeLine }) => {
   return (
     <div className='flex flex-col justify-center divide-y divide-slate-200'>
       <div className='w-full max-w-3xl mx-auto md:pb-40 md:pt-20'>

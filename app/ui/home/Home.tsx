@@ -3,8 +3,11 @@
 import { useLanguageStore } from '@/app/store/language';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
+
 import { dataText, dataTypeAnimation } from './data/data';
 import { dataTextEnglish, dataTypeAnimationEnglish } from './data/dataEnglish';
+
+//TODO Add link for CV english version
 
 const Home = () => {
   const language = useLanguageStore((state) => state.isEnglish);
