@@ -12,6 +12,12 @@ export const skillData = [
     height: 80,
   },
   {
+    skillName: 'php',
+    image: '/php.png',
+    width: 80,
+    height: 80,
+  },
+  {
     skillName: 'Docker',
     image: '/docker.webp',
     width: 70,
@@ -62,6 +68,24 @@ export const skillData = [
   {
     skillName: 'Bitbucket',
     image: '/bitbucket.png',
+    width: 50,
+    height: 50,
+  },
+  {
+    skillName: 'Wordpress',
+    image: '/wordpress.png',
+    width: 50,
+    height: 50,
+  },
+  {
+    skillName: 'Shopify',
+    image: '/shopify.png',
+    width: 50,
+    height: 50,
+  },
+  {
+    skillName: 'Elementor',
+    image: '/elementor.png',
     width: 50,
     height: 50,
   },
