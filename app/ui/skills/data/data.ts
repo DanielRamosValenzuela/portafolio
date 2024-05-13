@@ -221,6 +221,12 @@ export const BackendSkillData = [
     width: 70,
     height: 70,
   },
+  {
+    skillName: 'rabbitMq',
+    image: '/rabbitmq.png',
+    width: 70,
+    height: 70,
+  },
 ];
 
 export const textData = {
