@@ -6,14 +6,15 @@ import { CircleFlag } from 'react-circle-flags';
 import { Motion } from '../animation/Motion';
 import { menuHeader } from './menuHeader';
 import { useLanguageStore } from '@/app/store/language';
+import ToolTip from '../components/ToolTip';
 
 const Header = () => {
   const language = useLanguageStore((state) => state.isEnglish);
   const changeLanguage = useLanguageStore((state) => state.changeLanguage);
 
   const handleInputClick = () => {
-    changeLanguage(language)
-  }
+    changeLanguage(language);
+  };
 
   return (
     <Motion
@@ -35,23 +36,32 @@ const Header = () => {
               <div className='mr-3 w-6'>
                 <CircleFlag countryCode='es' />
               </div>
-              <input type='checkbox' className='sr-only peer' defaultChecked={language} />
-              <div onClick={handleInputClick} className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+              <input
+                type='checkbox'
+                className='sr-only peer'
+                defaultChecked={language}
+              />
+              <div
+                onClick={handleInputClick}
+                className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"
+              ></div>
               <div className='ms-3 w-6'>
                 <CircleFlag countryCode='gb' />
               </div>
             </label>
           </div>
           <div className='flex items-center justify-center gap-7'>
-            {menuHeader.map(({ logo, src, id }) => (
-              <Link
-                key={id}
-                href={src}
-                target='_blank'
-                className='transition-all duration-300 hover:text-secondary'
-              >
-                {logo}
-              </Link>
+            {menuHeader.map(({ logo, src, id, tooltip }) => (
+              <ToolTip tooltip={tooltip}>
+                <Link
+                  key={id}
+                  href={src}
+                  target='_blank'
+                  className='transition-all duration-300 hover:text-secondary'
+                >
+                  {logo}
+                </Link>
+              </ToolTip>
             ))}
           </div>
         </div>
