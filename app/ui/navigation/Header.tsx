@@ -52,7 +52,7 @@ const Header = () => {
           </div>
           <div className='flex items-center justify-center gap-7'>
             {menuHeader.map(({ logo, src, id, tooltip }) => (
-              <ToolTip tooltip={tooltip}>
+              <ToolTip tooltip={tooltip} key={id}>
                 <Link
                   key={id}
                   href={src}
