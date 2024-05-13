@@ -54,3 +54,8 @@ main {
   width: max-content;
   transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
 }
+
+.imageContainer {
+  width: 100%;
+  height: auto;
+}

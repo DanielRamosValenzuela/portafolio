@@ -9,7 +9,7 @@ interface Props {
   width: number;
   height: number;
   index: number;
-  skillName: string
+  skillName: string;
 }
 
 const SkillDataProvider = ({ src, width, height, index, skillName }: Props) => {
@@ -23,6 +23,7 @@ const SkillDataProvider = ({ src, width, height, index, skillName }: Props) => {
   };
 
   const animationDelay = 0.3;
+
   return (
     <motion.div
       ref={ref}
@@ -32,8 +33,17 @@ const SkillDataProvider = ({ src, width, height, index, skillName }: Props) => {
       custom={index}
       transition={{ delay: index * animationDelay }}
     >
-      <Image src={src} width={width} height={height} alt='skill image' priority={true} />
-      <span  className='text-[20px] text-white font-medium mt-[10px] text-center mb-[15px]'>{skillName}</span>
+      <Image
+        src={src}
+        width={width}
+        height={height}
+        alt='skill image'
+        priority={true}
+        className='imageContainer'
+      />
+      <span className='text-[20px] text-white font-medium mt-[10px] text-center mb-[15px]'>
+        {skillName}
+      </span>
     </motion.div>
   );
 };
