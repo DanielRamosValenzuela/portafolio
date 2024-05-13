@@ -1,11 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import {
-  slideInFromLeft,
-  slideInFromRight,
-  slideInFromTop,
-} from '@/utils/motionTransition';
+import { slideInFromLeft, slideInFromTop } from '@/utils/motionTransition';
 import { SparklesIcon } from '@heroicons/react/24/solid';
 import { useLanguageStore } from '@/app/store/language';
 import { textData } from './data/data';
