@@ -4,13 +4,22 @@ import Link from 'next/link';
 import { CircleFlag } from 'react-circle-flags';
 
 import { Motion } from '../animation/Motion';
-import { menuHeader } from './menuHeader';
 import { useLanguageStore } from '@/app/store/language';
 import ToolTip from '../components/ToolTip';
+import { menuHeader } from './data/menuHeader';
+import { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import SideBar from './SideBar';
 
 const Header = () => {
   const language = useLanguageStore((state) => state.isEnglish);
   const changeLanguage = useLanguageStore((state) => state.changeLanguage);
+
+  const [open, setOpen] = useState(false);
+
+  const handleOpenSideBar = () => {
+    setOpen((prev) => !prev);
+  };
 
   const handleInputClick = () => {
     changeLanguage(language);
@@ -31,7 +40,7 @@ const Header = () => {
               </h1>
             </Link>
           </div>
-          <div className='flex items-center justify-center m-3'>
+          <div className='items-center justify-center m-3 md:block hidden'>
             <label className='inline-flex items-center me-5 cursor-pointer'>
               <div className='mr-3 w-6'>
                 <CircleFlag countryCode='es' />
@@ -50,7 +59,7 @@ const Header = () => {
               </div>
             </label>
           </div>
-          <div className='flex items-center justify-center gap-7'>
+          <div className='lg:flex items-center justify-center gap-7 md:block hidden'>
             {menuHeader.map(({ logo, src, id, tooltip }) => (
               <ToolTip tooltip={tooltip} key={id}>
                 <Link
@@ -64,6 +73,18 @@ const Header = () => {
               </ToolTip>
             ))}
           </div>
+          <div className='flex md:hidden items-center justify-center'>
+            <button
+              type='button'
+              onClick={handleOpenSideBar}
+              className='inline-flex items-center justify-center rounded-md text-white hover:text-secondary hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'
+            >
+              {open === true ? <FaTimes size={20}/> : <FaBars size={20}/>}
+            </button>
+          </div>
+          {open ? (
+            <SideBar language={language} handleInputClick={handleInputClick}/>
+          ): null}
         </div>
       </header>
     </Motion>

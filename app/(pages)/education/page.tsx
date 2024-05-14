@@ -41,7 +41,7 @@ const EducationPage = () => {
       <CircleImage />
       <AvatarEducation />
       <div className='grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2'>
-        <div className='max-w-[450px]'>
+        <div className='max-w-[450px] p-10 mt-10'>
           <h1 className='text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5'>
             {getTextLanguage(language).textData.textTitleOne}{' '}
             <span className='font-bold text-secondary'>

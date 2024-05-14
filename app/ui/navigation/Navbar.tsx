@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { usePathname } from 'next/navigation';
 import { Motion } from '../animation/Motion';
-import { menuNavbar, menuNavbarEnglish } from './menuNavbar';
+import { menuNavbar, menuNavbarEnglish } from './data/menuNavbar';
 import ToolTip from '../components/ToolTip';
 import { useLanguageStore } from '@/app/store/language';
 

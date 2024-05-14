@@ -222,7 +222,7 @@ export const BackendSkillData = [
     height: 70,
   },
   {
-    skillName: 'rabbitMq',
+    skillName: 'RabbitMq',
     image: '/rabbitmq.png',
     width: 70,
     height: 70,
