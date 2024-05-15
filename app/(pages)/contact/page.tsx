@@ -1,6 +1,8 @@
 'use client';
 
 import { useLanguageStore } from '@/app/store/language';
+import TransitionPage from '@/app/ui/animation/TransitionPage';
+import CircleImage from '@/app/ui/components/CircleImage';
 import Container from '@/app/ui/components/Container';
 import ContactForm from '@/app/ui/contact/ContactForm';
 import {
@@ -41,6 +43,8 @@ const ContactPage = () => {
   };
   return (
     <Container>
+      <TransitionPage />
+      <CircleImage />
       <div className='container mx-auto py-32 text-center xl-text-left flex items-center justify-center h-full'>
         <div className='flex flex-col w-full max-w-[700px]'>
           <h2 className='text-center mb-12 text-4xl'>

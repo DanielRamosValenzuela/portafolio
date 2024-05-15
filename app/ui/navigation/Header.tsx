@@ -77,7 +77,7 @@ const Header = () => {
             <button
               type='button'
               onClick={handleOpenSideBar}
-              className='inline-flex items-center justify-center rounded-md text-white hover:text-secondary hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'
+              className='inline-flex items-center justify-center rounded-md text-white hover:text-secondary hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white m-2'
             >
               {open === true ? <FaTimes size={20}/> : <FaBars size={20}/>}
             </button>

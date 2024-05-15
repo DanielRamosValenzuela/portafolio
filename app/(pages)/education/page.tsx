@@ -10,6 +10,7 @@ import {
   educationDataEnglish,
   textDataEnglish,
 } from '@/app/ui/education/data/dataEnglish';
+import Container from '@/app/ui/components/Container';
 
 const EducationPage = () => {
   const language = useLanguageStore((state) => state.isEnglish);
@@ -36,36 +37,34 @@ const EducationPage = () => {
     return data;
   };
   return (
-    <>
+    <Container>
       <TransitionPage />
       <CircleImage />
       <AvatarEducation />
-      <div className='grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2'>
-        <div className='max-w-[450px] p-10 mt-10'>
-          <h1 className='text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5'>
-            {getTextLanguage(language).textData.textTitleOne}{' '}
-            <span className='font-bold text-secondary'>
-              {' '}
-              {getTextLanguage(language).textData.textTitleTwo}
-            </span>
-          </h1>
-          <p className='mb-3 text-xl text-gray-300'>
-            {getTextLanguage(language).textData.textDescription}
-          </p>
-          <a
-            href='/contact'
-            className='px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65'
-          >
-            {getTextLanguage(language).textData.textContact}
-          </a>
-        </div>
-        <div>
-          <SliderEducation
-            educationData={getTextLanguage(language).educationData}
-          />
-        </div>
+      <div className='flex flex-col justify-center items-center h-full'>
+        <h1 className='text-4xl leading-tight text-center md:text-4xl md:mb-5'>
+          {getTextLanguage(language).textData.textTitleOne}{' '}
+          <span className='font-bold text-secondary'>
+            {' '}
+            {getTextLanguage(language).textData.textTitleTwo}
+          </span>
+        </h1>
+        <p className='mb-3 text-xl text-gray-300'>
+          {getTextLanguage(language).textData.textDescription}
+        </p>
+        <a
+          href='/contact'
+          className='px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65 m-5 text-center w-7/12'
+        >
+          {getTextLanguage(language).textData.textContact}
+        </a>
       </div>
-    </>
+      <div>
+        <SliderEducation
+          educationData={getTextLanguage(language).educationData}
+        />
+      </div>
+    </Container>
   );
 };
 

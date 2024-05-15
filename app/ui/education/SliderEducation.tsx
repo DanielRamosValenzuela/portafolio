@@ -37,7 +37,7 @@ const SliderEducation: React.FC<SliderEducationProps> = ({educationData}) => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className='h-[280px] md:h-[340px] w-[270px] md:w-[550px]'
+      className='h-[380px]'
     >
       {educationData.map((item, index) => (
         <SwiperSlide key={index}>
