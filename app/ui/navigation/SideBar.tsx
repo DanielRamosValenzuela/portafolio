@@ -11,7 +11,7 @@ interface SideBarProps {
 
 const SideBar: React.FC<SideBarProps> = ({ language, handleInputClick }) => {
   return (
-    <div className='md:hidden w-full h-full bg-darkBg bg-opacity-90'>
+    <div className='md:hidden w-full h-full bg-darkBg bg-opacity-90 z-10'>
       <div className='items-center justify-center p-5'>
         <label className='inline-flex items-center me-5 cursor-pointer'>
           <div className='mr-3 w-6'>

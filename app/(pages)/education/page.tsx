@@ -54,7 +54,7 @@ const EducationPage = () => {
         </p>
         <a
           href='/contact'
-          className='px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65 m-5 text-center w-7/12'
+          className='px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65 m-5 text-center w-7/12 text-xl'
         >
           {getTextLanguage(language).textData.textContact}
         </a>
