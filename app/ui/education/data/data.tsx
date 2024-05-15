@@ -1,5 +1,5 @@
 import { Book, Computer, Pencil, Rocket, ShieldHalf } from 'lucide-react';
-import { DiJavascript } from 'react-icons/di';
+import { DiJavascript, DiJavascript1 } from 'react-icons/di';
 import { FaReact } from 'react-icons/fa';
 import { SiSolidity } from 'react-icons/si';
 import { IEducationData, ITextData } from './interface';
@@ -32,6 +32,13 @@ export const educationData: IEducationData[] = [
     link: './REACT_CERT.png',
     description:
       'Realice un curso de FrontEnd completo en esta institución, este es mi certificado sobre mis conocimientos en React.',
+  },
+  {
+    icon: <DiJavascript1 />,
+    title: 'JavaScript CoderHouse',
+    link: './certificadoJS.png',
+    description:
+      'Realice un curso de JavaScript completo en esta institución, este es mi certificado sobre mis conocimientos.',
   },
   {
     icon: <FaReact />,
