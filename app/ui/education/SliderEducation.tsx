@@ -2,7 +2,7 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-import { IEducationData } from './interface';
+import { IEducationData } from './data/interface';
 
 interface SliderEducationProps {
   educationData: IEducationData[];

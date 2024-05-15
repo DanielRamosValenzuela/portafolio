@@ -2,7 +2,7 @@ import { Book, Computer, Pencil, Rocket, ShieldHalf } from 'lucide-react';
 import { DiJavascript } from 'react-icons/di';
 import { FaReact } from 'react-icons/fa';
 import { SiSolidity } from 'react-icons/si';
-import { IEducationData, ITextData } from '../interface';
+import { IEducationData, ITextData } from './interface';
 
 export const educationData: IEducationData[] = [
   {
