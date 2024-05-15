@@ -31,7 +31,7 @@ export const educationData: IEducationData[] = [
     title: 'React Js CoderHouse',
     link: './REACT_CERT.png',
     description:
-      'Realice un curso de FrontEnd completo en esta institución, este es mi certificado sobre mis conocimientos en React.',
+      'Realice un curso de FrontEnd completo en esta institución, este es mi certificado sobre mis conocimientos.',
   },
   {
     icon: <DiJavascript1 />,
