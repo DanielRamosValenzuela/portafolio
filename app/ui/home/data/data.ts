@@ -4,7 +4,7 @@ export const dataText = {
     'Como desarrollador fullstack, me especializo en el diseño y desarrollo de aplicaciones completas, tanto en el frontend como en el backend, asegurando que sean funcionales y escalables.',
   downloadCV: 'Descargar CV',
   contactMe: 'Contacta conmigo',
-  linkCV: '/CV_DR_2024'
+  linkCV: '/CV_DR_2024.pdf'
 };
 
 export const dataTypeAnimation = {
