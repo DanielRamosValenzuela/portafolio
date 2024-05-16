@@ -10,56 +10,56 @@ export const educationData: IEducationData[] = [
     title: 'Título de Oficial (TI) de la FACh',
     link: './CERT_OFICIAL_TI.pdf',
     description:
-      'Titulo de egreso como Oficial en Telecomunicaciones e Informática de la FACh.',
+      'Título obtenido como Oficial en Telecomunicaciones e Informática de la FACh.',
   },
   {
     icon: <Pencil />,
     title: 'Ingeniero Electrónico',
     link: './CERT_ING_ELCT.pdf',
     description:
-      'Licenciado como Ingeniero Electrónico en la Academia Politécnica Aeronáutica.',
+      'Graduado como Ingeniero Electrónico en la Academia Politécnica Aeronáutica.',
   },
   {
     icon: <Computer />,
-    title: 'Desarrollo web CoderHouse',
+    title: 'Desarrollo Web CoderHouse',
     link: './WEB_CERT.png',
     description:
-      'Realice un curso de FrontEnd completo en esta institución, este es mi certificado como desarrollado Web',
+      'Completé un curso de FrontEnd en CoderHouse. Aquí está mi certificado como desarrollador web.',
   },
   {
     icon: <Book />,
     title: 'React Js CoderHouse',
     link: './REACT_CERT.png',
     description:
-      'Realice un curso de FrontEnd completo en esta institución, este es mi certificado sobre mis conocimientos.',
+      'Completé un curso de React Js en CoderHouse. Aquí está mi certificado que avala mis conocimientos.',
   },
   {
     icon: <DiJavascript1 />,
     title: 'JavaScript CoderHouse',
     link: './certificadoJS.png',
     description:
-      'Realice un curso de JavaScript completo en esta institución, este es mi certificado sobre mis conocimientos.',
+      'Completé un curso intensivo de JavaScript en CoderHouse. Aquí está mi certificado que avala mis conocimientos.',
   },
   {
     icon: <FaReact />,
     title: 'MERN Stack Udemy',
     link: './REACT_MERN.jpg',
     description:
-      'Este es un curso de Udemy en donde forme màs mis conocimientos como fullstack',
+      'Realicé un curso de MERN Stack en Udemy para profundizar mis conocimientos como desarrollador fullstack.',
   },
   {
     icon: <DiJavascript />,
     title: 'JavaScript Udemy',
     link: './JAVASCRIPT.jpg',
     description:
-      'Uno de los cursos màs completos que he realizado, explica como funciona JavaScript a la perfección.',
+      'Este es uno de los cursos más completos que he realizado en Udemy, que explica detalladamente el funcionamiento de JavaScript.',
   },
   {
     icon: <SiSolidity />,
     title: 'SOLID Udemy',
     link: './SOLID.jpg',
     description:
-      'Dentro de mi carrera para perfeccionarme hice un pequeños curso de los principios SOLID.',
+      'Como parte de mi desarrollo profesional, realicé un curso sobre los principios SOLID en Udemy.',
   },
 ];
 
@@ -67,6 +67,6 @@ export const textData: ITextData = {
   textTitleOne: 'Mi',
   textTitleTwo: 'educación.',
   textDescription:
-    'Estos son mis estudios dentro de mi trayectoria, mis conocimientos como desarrollador se basan netamente en estudiar de forma autodidacta, los títulos que tengo dentro de la Fuerza Aérea son solo títulos ya que no aprendí a desarrollar dentro de la institución, si tuve un acercamiento a ello y fue donde me quedo gustando este mundo.',
+    'A lo largo de mi carrera, he adquirido conocimientos de manera autodidacta. Aunque mis títulos en la Fuerza Aérea son reconocimientos formales, mi aprendizaje y desarrollo en programación no provienen de esta institución, aunque sí fue allí donde descubrí y me apasioné por este ámbito.',
   textContact: 'Contacta conmigo',
 };

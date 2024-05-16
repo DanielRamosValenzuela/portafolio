@@ -1,71 +1,72 @@
-import { Book, Computer, Pencil, Rocket, ShieldHalf } from 'lucide-react';
+import { Book, Computer, Pencil, ShieldHalf } from 'lucide-react';
 import { DiJavascript, DiJavascript1 } from 'react-icons/di';
 import { FaReact } from 'react-icons/fa';
 import { SiSolidity } from 'react-icons/si';
+import { IEducationData, ITextData } from './interface';
 
-export const educationDataEnglish = [
+export const educationDataEnglish: IEducationData[] = [
   {
     icon: <ShieldHalf />,
-    title: 'Air Force (IT) Officer Title',
+    title: 'Air Force Telecommunications and IT Officer',
     link: './CERT_OFICIAL_TI.pdf',
     description:
-      'Degree as an Officer in Telecommunications and Computing from the Air Force.',
+      'Graduated as an Officer in Telecommunications and IT from the Chilean Air Force.',
   },
   {
     icon: <Pencil />,
     title: 'Electronic Engineer',
     link: './CERT_ING_ELCT.pdf',
     description:
-      'Graduated as an Electronic Engineer from the Aeronautical Polytechnic Academy.',
+      'Earned my degree as an Electronic Engineer from the Aeronautical Polytechnic Academy.',
   },
   {
     icon: <Computer />,
     title: 'Web Development CoderHouse',
     link: './WEB_CERT.png',
     description:
-      'I completed a full FrontEnd course at this institution, this is my certificate as a Web Developer',
+      'I completed a comprehensive FrontEnd course at CoderHouse. Here is my certification as a web developer.',
   },
   {
     icon: <Book />,
     title: 'React Js CoderHouse',
     link: './REACT_CERT.png',
     description:
-      'I completed a full FrontEnd course at this institution, this is my certificate on my knowledge in React.',
+      'I completed a React Js course at CoderHouse. Here is my certificate verifying my skills.',
   },
   {
     icon: <DiJavascript1 />,
     title: 'JavaScript CoderHouse',
     link: './certificadoJS.png',
     description:
-      'I completed a full JavaScript course at this institution, this is my certificate on my knowledge.',
+      'I completed an intensive JavaScript course at CoderHouse. Here is my certificate verifying my skills.',
   },
   {
     icon: <FaReact />,
     title: 'MERN Stack Udemy',
     link: './REACT_MERN.jpg',
     description:
-      'This is a Udemy course where I further developed my fullstack knowledge',
+      'I took a MERN Stack course on Udemy to further my knowledge as a full-stack developer.',
   },
   {
     icon: <DiJavascript />,
     title: 'JavaScript Udemy',
     link: './JAVASCRIPT.jpg',
     description:
-      'One of the most comprehensive courses I have taken, it perfectly explains how JavaScript works.',
+      'This is one of the most comprehensive courses I have taken on Udemy, which thoroughly explains how JavaScript works.',
   },
   {
     icon: <SiSolidity />,
-    title: 'SOLID Udemy',
+    title: 'SOLID Principles Udemy',
     link: './SOLID.jpg',
     description:
-      'During my career to improve myself I took a small course on SOLID principles.',
+      'As part of my professional development, I took a course on SOLID principles at Udemy.',
   },
 ];
 
-export const textDataEnglish = {
+export const textDataEnglish: ITextData = {
   textTitleOne: 'My',
-  textTitleTwo: 'education.',
+  textTitleTwo: 'Education.',
   textDescription:
-    'These are my studies within my career, my knowledge as a developer is purely based on self-study, the titles I have within the Air Force are just titles since I did not learn to develop within the institution, although I had an approach to it and that was where I started liking this world.',
+    'Throughout my career, I have acquired knowledge through self-study. Although my titles in the Air Force are formal recognitions, my learning and development in programming did not come from this institution, though it was there that I discovered and became passionate about this field.',
   textContact: 'Contact me',
 };

@@ -1,7 +1,7 @@
 export const dataText = {
   textOne: 'Si puedes pensarlo,',
   textTwo:
-    ' Como desarrollador fullstack, me dedico a crear aplicaciones completas tanto como en el frontend o en el backend que sean funcionales y escalables.',
+    'Como desarrollador fullstack, me especializo en el diseño y desarrollo de aplicaciones completas, tanto en el frontend como en el backend, asegurando que sean funcionales y escalables.',
   downloadCV: 'Descargar CV',
   contactMe: 'Contacta conmigo',
 };

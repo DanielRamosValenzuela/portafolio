@@ -6,7 +6,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'SMU',
     image: '/unimarc.png',
     description:
-      'I worked for SMU for 2 years, where I was solely a backend developer in the payment methods team. I integrated and supported various payment methods such as: Transfer (ETPAY), Transbank, GiftCard, Unipay, Klap, etc. Additionally, I integrated these payment methods into an ecommerce platform called VTEX. We had an app in which we could visualize the transactions, which was built with React and NextJs. Since it was a private company, the code and GitHub are also private.',
+      'I worked at SMU for 2 years, mainly in the backend within the payment methods team. I participated in integrating and supporting various payment systems such as ETPAY transfers, Transbank, GiftCard, Unipay, Klap, etc. These systems were also integrated into a VTEX ecommerce platform. We had an application to visualize transactions, developed using React and NextJs. As SMU is a private company, the code and GitHub repositories are private.',
     urlGithub: 'https://www.unimarc.cl/',
     urlDemo: 'https://www.unimarc.cl/',
   },
@@ -22,7 +22,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     id: 12,
     title: 'Test Ruuf',
     image: '/ruuf.png',
-    description: 'A test I did for a solar panel company.',
+    description: 'A test I performed for a solar panel company.',
     urlGithub: 'https://github.com/DanielRamosValenzuela/ruuftest',
     urlDemo: 'https://ruuftest.vercel.app/',
   },
@@ -31,16 +31,16 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'Test Rel',
     image: '/rel.png',
     description:
-      'A test I conducted for a company that worked for the chamber of commerce, the test involved creating an Admin Dashboard, here are the credentials so you can try it: User: daniel.andres.ramos.v@gmail.com, password: 123456. By the time you see this, it may not work anymore as it\'s on MERN stack and the MongoDB database might be down due to inactivity.',
+      'I conducted a test for a company associated with the chamber of commerce, involving the development of an Admin Dashboard. Here are the credentials for you to try: User: daniel.andres.ramos.v@gmail.com, password: 123456. It might no longer function, as it uses the MERN stack and the MongoDB might be inactive due to inactivity.',
     urlGithub: 'https://github.com/DanielRamosValenzuela/reltest',
-    urlDemo: 'reltest.vercel.app',
+    urlDemo: 'https://reltest.vercel.app',
   },
   {
     id: 14,
     title: 'Furepic page',
     image: '/furepic.png',
     description:
-      'This is a page for T-shirts, it was made in WordPress, I\'m not sure if it will still be active, but it was a page that I launched into production quickly with Elementor and WordPress.',
+      'This is a T-shirt website created in WordPress. It was launched quickly using Elementor and WordPress, and it\'s uncertain if it\'s still active.',
     urlGithub: 'https://furepic.cl/',
     urlDemo: 'https://furepic.cl/',
   },
@@ -48,18 +48,18 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     id: 15,
     title: 'CoderHouse Project Delivex page',
     image: '/delivex.png',
-    urlGithub: 'https://github.com/DanielRamosValenzuela/delivexpage',
     description:
-      'Final project for my CoderHouse HTML and CSS course, it is currently down but the Figma works, here is the link to it.',
+      'Final project for my HTML and CSS course at CoderHouse. It is currently down, but the design on Figma is still available; I\'ve provided the link.',
     subLink:
       'https://www.figma.com/file/I7YHxuR1RTr56mumPvHqio/Deliexp?node-id=3%3A2',
     urlDemo: 'https://delivex.000webhostapp.com/index.html',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/delivexpage',
   },
   {
     id: 16,
     title: 'Portfolio',
     image: '/portafolio.png',
-    description: 'This same portfolio is made with React and NextJs.',
+    description: 'This portfolio itself is built with React and NextJs.',
     urlGithub: 'https://github.com/DanielRamosValenzuela/portafolio',
     urlDemo: 'https://daniel-ramos-portofolio.vercel.app/',
   },
@@ -68,14 +68,60 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'CoderHouse Project Papinos page',
     image: '/papinospage.png',
     description:
-      'I used this for my JavaScript project at Coder House, it is written in Vanilla JavaScript with Node.JS and SQL Server database, I had to disable creating a user since I didn\'t implement email verification, although if you create an account it will be saved in the local storage, you can enter and try the application with my user: daniel.andres.ramos.v@gmail.com, password:123456 (I also disabled changing the password), or you can also use the application without a user, it serves the same purpose, in this project I managed to achieve the top 10 of the course.',
+      'I used this project for my JavaScript course at CoderHouse. It\'s developed in Vanilla JavaScript with Node.JS and a SQL Server database. I had to disable user creation due to lack of email verification, but if you create an account, it will be saved in local storage. You can test the application with my credentials: daniel.andres.ramos.v@gmail.com, password: 123456. I also disabled changing the password, but you can use the application without an account, serving the same purpose. This project ranked among the top 10 in the course.',
     urlGithub: 'https://github.com/DanielRamosValenzuela/LosPapinosPage',
     urlDemo: 'http://209.126.8.246:8080/papino.com',
+  },
+  {
+    id: 18,
+    title: 'Indicators',
+    image: '/indicadores.png',
+    description:
+      'I completed this project as part of my applications to companies. It involves an app that calls an API to display economic indicators, using Bootstrap for the design.',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/indicadores',
+    urlDemo: 'https://indicadoresbanco.netlify.app/',
+  },
+  {
+    id: 19,
+    title: 'Blackjack',
+    image: '/blackjack.png',
+    description:
+      'I developed this application during one of my Udemy courses on JavaScript. I hope you enjoy it!',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/blackjackudemy',
+    urlDemo: 'https://danielramosvalenzuela.github.io/blackjackudemy/',
+  },
+  {
+    id: 20,
+    title: 'Gift app',
+    image: '/giftapp.png',
+    description:
+      'This app calls a GIF API. I developed it in a Udemy course on React, following the instructor\'s guidelines. Enjoy!',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/react---giftexpertapp',
+    urlDemo: 'https://giftappudemy.netlify.app/',
+  },
+  {
+    id: 21,
+    title: 'Heroes app',
+    image: '/heroesapp.png',
+    description:
+      'This app was developed in React during one of my Udemy courses. It includes a login system (automatically linked to my account) and uses React Router. You can use a search function to find your hero, or filter by DC or Marvel categories.',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/heroesudemy',
+    urlDemo: 'https://heroesappudemy.netlify.app',
+  },
+  {
+    id: 22,
+    title: 'Portfolio Legacy',
+    image: '/portfoliolegacy.png',
+    description:
+      'This was my first portfolio, created years ago to seek my first job. It is currently out of service, but I\'ve left the code on GitHub.',
+    urlGithub: 'https://github.com/DanielRamosValenzuela/portfoliodr',
+    urlDemo: 'https://github.com/DanielRamosValenzuela/portfoliodr',
   },
 ];
 
 export const dataTextEnglish = {
   titleOne: 'Work',
-  titleTwo: 'accomplished.',
-  textDescription: 'These works are projects whether for companies, internal tasks, studies, or even tests that some companies have asked me to do and I wanted to leave them here as a legacy. Maybe more than one is no longer functioning, but at least I can show the code and what it involved.'
-}
+  titleTwo: 'Accomplished.',
+  textDescription:
+    'These works represent a variety of projects undertaken for different companies, including internal tasks, studies, and tests requested by potential employers. Although some of these projects may no longer be active, I can still provide access to the code and offer a detailed explanation of the nature and scope of each one.',
+};

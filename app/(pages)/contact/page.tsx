@@ -45,7 +45,7 @@ const ContactPage = () => {
     <Container>
       <TransitionPage />
       <CircleImage />
-      <div className='container mx-auto py-32 text-center xl-text-left flex items-center justify-center h-full'>
+      <div className='container mx-auto text-center xl-text-left flex items-center justify-center h-full'>
         <div className='flex flex-col w-full max-w-[700px]'>
           <h2 className='text-center mb-12 text-4xl'>
             {getTextLanguage(language).dataTextContact.h2Text}

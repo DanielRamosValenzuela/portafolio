@@ -1,7 +1,7 @@
 export const dataTextEnglish = {
   textOne: 'If you can think about it,',
   textTwo:
-    'As a fullstack developer, I dedicate myself to creating complete applications in both the frontend and backend that are functional and scalable.',
+    'As a fullstack developer, I specialize in designing and developing complete applications, both on the frontend and backend, ensuring they are functional and scalable',
   downloadCV: 'Download CV',
   contactMe: 'Contact me',
 };

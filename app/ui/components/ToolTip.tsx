@@ -1,6 +1,6 @@
-'use client'
+'use client';
 
-import { FC, ReactNode, useRef } from "react";
+import { FC, ReactNode, useRef } from 'react';
 
 interface Props {
   children: ReactNode;
@@ -17,20 +17,19 @@ const ToolTip: FC<Props> = ({ children, tooltip }): JSX.Element => {
       onMouseEnter={({ clientX }) => {
         if (!tooltipRef.current || !container.current) return;
         const { left } = container.current.getBoundingClientRect();
-
-        tooltipRef.current.style.left = clientX - left + "px";
+        tooltipRef.current.style.left = clientX - left + 'px';
       }}
-      className="group relative inline-block"
+      className='group relative inline-block'
     >
       {children}
-      {tooltip ? (
+      {tooltip && (
         <span
           ref={tooltipRef}
-          className="invisible group-hover:visible opacity-0 group-hover:opacity-100 transition bg-secondary text-white p-1 rounded absolute top-full mt-2 whitespace-nowrap"
+          className='invisible group-hover:visible opacity-0 group-hover:opacity-100 transition bg-secondary text-white p-1 rounded absolute top-full mt-2 whitespace-nowrap hidden md:inline-block'
         >
           {tooltip}
         </span>
-      ) : null}
+      )}
     </div>
   );
 };
