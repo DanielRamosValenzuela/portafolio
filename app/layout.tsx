@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Urbanist } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 
 import './globals.css';
 import 'swiper/css';
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Navbar />
         <Header />
         {children}
+        <Toaster position='top-right' />
       </body>
     </html>
   );

@@ -4,4 +4,5 @@ export interface IDataPlaceholderForm {
   placeHolderSubject: string;
   placeHolderMessage: string;
   textSend: string;
+  textSuccess: string;
 }

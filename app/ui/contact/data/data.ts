@@ -11,4 +11,5 @@ export const dataPlaceholderForm: IDataPlaceholderForm = {
   placeHolderSubject: 'Asunto',
   placeHolderMessage: 'Mensaje',
   textSend: 'Enviar',
+  textSuccess: 'Correo enviado, pronto estaré en contacto contigo.'
 };
