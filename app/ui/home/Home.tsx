@@ -7,8 +7,6 @@ import { TypeAnimation } from 'react-type-animation';
 import { dataText, dataTypeAnimation } from './data/data';
 import { dataTextEnglish, dataTypeAnimationEnglish } from './data/dataEnglish';
 
-//TODO Add link for CV english version
-
 const Home = () => {
   const language = useLanguageStore((state) => state.isEnglish);
   const getTextLanguage = (isEnglish: boolean) => {
@@ -96,7 +94,7 @@ const Home = () => {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='./CV_DR.pdf'
+              href={getTextLanguage(language).dataText.linkCV}
               className='px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'
             >
               {getTextLanguage(language).dataText.downloadCV}

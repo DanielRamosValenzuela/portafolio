@@ -61,7 +61,7 @@ export const portfolioData: IPortfolioData[] = [
     image: '/portafolio.png',
     description: 'Este mismo portafolio está hecho con React y NextJs.',
     urlGithub: 'https://github.com/DanielRamosValenzuela/portafolio',
-    urlDemo: 'https://daniel-ramos-portofolio.vercel.app/',
+    urlDemo: 'https://daniel-ramos-portfolio.vercel.app/',
   },
   {
     id: 17,
