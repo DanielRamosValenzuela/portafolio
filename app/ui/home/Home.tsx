@@ -36,7 +36,7 @@ const Home = () => {
   };
 
   return (
-    <div className='z-20 w-full bg-darkBg/60'>
+    <div className='z-20 w-full pt-10 bg-darkBg/60 '>
       <div className='z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2'>
         <Image
           src='/home-4.png'
@@ -90,7 +90,7 @@ const Home = () => {
             {getTextLanguage(language).dataText.textTwo}
           </p>
 
-          <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10'>
+          <div className='flex items-center justify-center gap-3 md:justify-start md:gap-10 pb-20'>
             <a
               target='_blank'
               rel='noopener noreferrer'
