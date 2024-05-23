@@ -76,6 +76,6 @@ export const dataCounter: IDataCounter[] = [
 ];
 
 export const dataTitles: IDataTitle = {
-  title: 'Toda mi',
+  title: 'Toda mi ',
   subtitle: 'trayectoria profesional',
 };
