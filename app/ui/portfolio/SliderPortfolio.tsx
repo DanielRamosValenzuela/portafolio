@@ -31,7 +31,7 @@ const SliderPortfolio: React.FC<SliderPortfolioProps> = ({
         clickable: true,
       }}
       modules={[Pagination]}
-      className='h-[480px]'
+      className='h-[440px]'
       freeMode={true}
       breakpoints={{
         320: {
@@ -57,7 +57,7 @@ const SliderPortfolio: React.FC<SliderPortfolioProps> = ({
           key={index}
           className='flex flex-col items-center justify-center h-full bg-transparent relative'
         >
-          <div className='p-4 rounded-xl overflow-hidden'>
+          <div className='p-4 rounded-xl overflow-hidden flex flex-col items-center justify-center'>
             <h3 className='mb-4 text-xl text-center'>{item.title}</h3>
             <div
               style={{

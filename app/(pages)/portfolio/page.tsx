@@ -60,11 +60,11 @@ const PortfolioPage = () => {
         <AvatarPortfolio />
         <CircleImage />
         <div className='flex flex-col justify-center h-full'>
-          <h1 className='text-4xl leading-tight text-center md:text-4xl md:mb-5 '>
+          <h1 className='text-4xl leading-tight text-center md:text-4xl'>
             {getTextLanguage(language).dataText.titleOne}{' '}
             <span className='font-bold text-secondary'>{getTextLanguage(language).dataText.titleTwo}</span>
           </h1>
-          <span className='mb-5 mt-5 text-justify text-xl'>
+          <span className='mb-3 mt-3 text-justify text-xl'>
           {getTextLanguage(language).dataText.textDescription}
           </span>
           <div className='md:flex justify-center items-center'>
