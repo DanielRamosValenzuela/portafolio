@@ -2,8 +2,16 @@ import { IDataAboutPageTimeLine, IDataCounter, IDataTitle } from './interface';
 
 export const dataAboutPageTimeLine: IDataAboutPageTimeLine[] = [
   {
+    id: 14,
+    title: 'Desarrollador Fullstack',
+    subtitle: 'Banco Falabella',
+    description:
+      'Actualmente trabajo en Banco Falabella como desarrollador Fullstack, donde he tenido la oportunidad de trabajar en proyectos de gran envergadura, como la creación de la plataforma de ventas seguros de vida tanto como Chile, Perú y Colombia.',
+    date: 'Jun 2024',
+  },
+  {
     id: 15,
-    title: 'Desarrollador Backend',
+    title: 'Desarrollador Fullstack',
     subtitle: 'SMU',
     description:
       'Mi primer empleo como desarrollador fue en SMU dentro del equipo de medios de pago, donde realicé diversas integraciones y creé métodos de pago como transferencias, tarjetas de regalo, KLAP, Transbank, entre otros.',
@@ -70,6 +78,13 @@ export const dataCounter: IDataCounter[] = [
     id: 2,
     endCounter: 20,
     text: 'Integraciones y proyectos realizados',
+    lineRight: true,
+    lineRightMobile: true,
+  },
+  {
+    id: 3,
+    endCounter: 5000,
+    text: 'Commits realizados',
     lineRight: false,
     lineRightMobile: false,
   },

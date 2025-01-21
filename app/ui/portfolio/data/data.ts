@@ -2,6 +2,24 @@ import { IPortfolioData } from './interface';
 
 export const portfolioData: IPortfolioData[] = [
   {
+    id: 8,
+    title: 'Banco Falabella',
+    image: '/vca-cl.png',
+    description:
+      'Trabaje en la parte de seguros de vida dentro del banco, estaba en el desarrollo de lo que es vida con ahorro en Chile, hecho en el frontend con ReactJS y NextJS y el backend hecho con NestJS',
+    urlGithub: 'https://vida-ahorro.segurosfalabella.com',
+    urlDemo: 'https://vida-ahorro.segurosfalabella.com',
+  },
+  {
+    id: 9,
+    title: 'Banco Falabella',
+    image: '/vca-pe.png',
+    description:
+      'Trabaje en la parte de seguros de vida dentro del banco, estaba en el desarrollo de lo que es vida con ahorro en Perú, hecho en el frontend con ReactJS y NextJS y el backend hecho con NestJS',
+    urlGithub: 'https://vida.segurosfalabella.com.pe',
+    urlDemo: 'https://vida.segurosfalabella.com.pe',
+  },
+  {
     id: 10,
     title: 'SMU',
     image: '/unimarc.png',

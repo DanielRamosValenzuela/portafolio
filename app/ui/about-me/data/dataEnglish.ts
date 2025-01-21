@@ -2,6 +2,14 @@ import { IDataAboutPageTimeLine, IDataCounter, IDataTitle } from './interface';
 
 export const dataAboutPageTimeLineEnglish: IDataAboutPageTimeLine[] = [
   {
+    id: 14,
+    title: 'Fullstack Developer',
+    subtitle: 'Banco Falabella',
+    description:
+      'I am currently working at Falabella Bank (Bank from Chile) as a Fullstack Developer, where I have had the opportunity to work on large-scale projects, such as the creation of the life insurance sales platform for Chile, Peru, and Colombia.',
+    date: 'Jun 2024',
+  },
+  {
     id: 15,
     title: 'Backend Developer',
     subtitle: 'SMU',
@@ -70,6 +78,13 @@ export const dataCounterEnglish: IDataCounter[] = [
     id: 2,
     endCounter: 20,
     text: 'Integrations and projects completed',
+    lineRight: true,
+    lineRightMobile: true,
+  },
+  {
+    id: 3,
+    endCounter: 5000,
+    text: 'Commits made',
     lineRight: false,
     lineRightMobile: false,
   },

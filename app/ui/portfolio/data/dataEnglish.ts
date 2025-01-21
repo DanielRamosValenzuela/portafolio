@@ -2,6 +2,24 @@ import { IPortfolioData } from './interface';
 
 export const portfolioDataEnglish: IPortfolioData[] = [
   {
+    id: 8,
+    title: 'Falabella Bank',
+    image: '/vca-cl.png',
+    description:
+      'I worked in the life insurance department within the bank, contributing to the development of the life with savings product in Chile, built with ReactJS and NextJS on the frontend and NestJS on the backend.',
+    urlGithub: 'https://vida-ahorro.segurosfalabella.com',
+    urlDemo: 'https://vida-ahorro.segurosfalabella.com',
+  },
+  {
+    id: 9,
+    title: 'Falabella Bank',
+    image: '/vca-pe.png',
+    description:
+      'I worked in the life insurance department within the bank, contributing to the development of the life with savings product in Peru, built with ReactJS and NextJS on the frontend and NestJS on the backend.',
+    urlGithub: 'https://vida.segurosfalabella.com.pe',
+    urlDemo: 'https://vida.segurosfalabella.com.pe',
+  },
+  {
     id: 10,
     title: 'SMU',
     image: '/unimarc.png',
@@ -40,7 +58,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'Furepic page',
     image: '/furepic.png',
     description:
-      'This is a T-shirt website created in WordPress. It was launched quickly using Elementor and WordPress, and it\'s uncertain if it\'s still active.',
+      "This is a T-shirt website created in WordPress. It was launched quickly using Elementor and WordPress, and it's uncertain if it's still active.",
     urlGithub: 'https://furepic.cl/',
     urlDemo: 'https://furepic.cl/',
   },
@@ -49,7 +67,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'CoderHouse Project Delivex page',
     image: '/delivex.png',
     description:
-      'Final project for my HTML and CSS course at CoderHouse. It is currently down, but the design on Figma is still available; I\'ve provided the link.',
+      "Final project for my HTML and CSS course at CoderHouse. It is currently down, but the design on Figma is still available; I've provided the link.",
     subLink:
       'https://www.figma.com/file/I7YHxuR1RTr56mumPvHqio/Deliexp?node-id=3%3A2',
     urlDemo: 'https://delivex.000webhostapp.com/index.html',
@@ -68,7 +86,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'CoderHouse Project Papinos page',
     image: '/papinospage.png',
     description:
-      'I used this project for my JavaScript course at CoderHouse. It\'s developed in Vanilla JavaScript with Node.JS and a SQL Server database. I had to disable user creation due to lack of email verification, but if you create an account, it will be saved in local storage. You can test the application with my credentials: daniel.andres.ramos.v@gmail.com, password: 123456. I also disabled changing the password, but you can use the application without an account, serving the same purpose. This project ranked among the top 10 in the course.',
+      "I used this project for my JavaScript course at CoderHouse. It's developed in Vanilla JavaScript with Node.JS and a SQL Server database. I had to disable user creation due to lack of email verification, but if you create an account, it will be saved in local storage. You can test the application with my credentials: daniel.andres.ramos.v@gmail.com, password: 123456. I also disabled changing the password, but you can use the application without an account, serving the same purpose. This project ranked among the top 10 in the course.",
     urlGithub: 'https://github.com/DanielRamosValenzuela/LosPapinosPage',
     urlDemo: 'http://209.126.8.246:8080/papino.com',
   },
@@ -95,7 +113,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'Gift app',
     image: '/giftapp.png',
     description:
-      'This app calls a GIF API. I developed it in a Udemy course on React, following the instructor\'s guidelines. Enjoy!',
+      "This app calls a GIF API. I developed it in a Udemy course on React, following the instructor's guidelines. Enjoy!",
     urlGithub: 'https://github.com/DanielRamosValenzuela/react---giftexpertapp',
     urlDemo: 'https://giftappudemy.netlify.app/',
   },
@@ -113,7 +131,7 @@ export const portfolioDataEnglish: IPortfolioData[] = [
     title: 'Portfolio Legacy',
     image: '/portfoliolegacy.png',
     description:
-      'This was my first portfolio, created years ago to seek my first job. It is currently out of service, but I\'ve left the code on GitHub.',
+      "This was my first portfolio, created years ago to seek my first job. It is currently out of service, but I've left the code on GitHub.",
     urlGithub: 'https://github.com/DanielRamosValenzuela/portfoliodr',
     urlDemo: 'https://github.com/DanielRamosValenzuela/portfoliodr',
   },
